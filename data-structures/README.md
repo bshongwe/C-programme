@@ -1,1 +1,0 @@
-# C Program to Store Data in Structures Dynamically
