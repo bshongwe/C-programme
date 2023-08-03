@@ -7,7 +7,9 @@ int main()
    FILE *fptr;
 
    // use appropriate location if you are using MacOS or Linux
-   fptr = fopen("C:\\program.txt","w");
+   fptr = fopen("C:\\program.txt","w"); // Windows
+   // fptr = fopen("/home/user/program.txt","w"); // Linux
+   // fptr = fopen("/home/username/program.txt","w"); // MacOS
 
    if(fptr == NULL)
    {
